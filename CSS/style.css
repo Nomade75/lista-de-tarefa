@@ -14,7 +14,7 @@ body{
     background-color: var(--box-color);
     width: 40%;
     margin: 10% auto;
-    height: 44vh;
+    min-height: 44vh;
     text-align: center;
     padding: 10px;
 
@@ -41,6 +41,7 @@ ul{
     width: 70%;
     list-style-position:inside;
     text-align: left;
+    height: auto;
     text-transform: uppercase;
 }
 li{
